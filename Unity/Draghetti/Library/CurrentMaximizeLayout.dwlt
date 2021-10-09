@@ -208,8 +208,8 @@ MonoBehaviour:
     y: 0
     width: 201
     height: 574
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 7}
   m_Panes:
   - {fileID: 7}
@@ -242,10 +242,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 652}
-      m_SelectedIDs: 46e2ffff
-      m_LastClickedID: -7610
-      m_ExpandedIDs: 98e9ffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 80460000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 50fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -333,9 +333,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -16.725723, y: -13.730307, z: 35.562603}
+    m_Target: {x: -20.615341, y: -7.0219364, z: 34.704422}
     speed: 2
-    m_Value: {x: -16.725723, y: -13.730307, z: 35.562603}
+    m_Value: {x: -20.615341, y: -7.0219364, z: 34.704422}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -386,9 +386,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.14806002, y: -0.38978985, z: 0.061007015, w: 0.90687394}
   m_Size:
-    m_Target: 36.525524
+    m_Target: 44.96721
     speed: 2
-    m_Value: 36.525524
+    m_Value: 44.96721
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -482,8 +482,8 @@ MonoBehaviour:
     y: 0
     width: 768
     height: 574
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -554,22 +554,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Lobby
+    - Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Lobby
+  - Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Users\Emanuele Paci\Documents\GestioneProgetto\draghetti\Unity\Draghetti
+  m_LastProjectPath: D:\Users\Emanuele Paci\Documents\GitHub\Draghetti\Unity\Draghetti
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b24b0000
-    m_LastClickedID: 19378
-    m_ExpandedIDs: 000000006c4b00006e4b0000704b0000744b0000764b0000784b000000ca9a3b
+    m_SelectedIDs: 84460000
+    m_LastClickedID: 18052
+    m_ExpandedIDs: 000000003c4600003e460000404600004246000044460000464600006246000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -597,7 +597,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006c4b00006e4b0000704b0000744b0000764b0000784b000000ca9a3b
+    m_ExpandedIDs: 000000003c4600003e46000040460000424600004446000046460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -622,8 +622,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 46e2ffff
-    m_LastClickedInstanceID: -7610
+    m_SelectedInstanceIDs: 80460000
+    m_LastClickedInstanceID: 18048
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
