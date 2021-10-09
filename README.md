@@ -1,2 +1,2 @@
 # Draghetti
-*Repository originale: *
+_Repository originale:_
