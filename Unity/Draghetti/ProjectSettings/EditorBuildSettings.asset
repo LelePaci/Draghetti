@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Locked/Locked.unity
+    guid: 2bb20f7f03a2686409f6b48f2fd5864a
+  - enabled: 1
+    path: Assets/Lobby/Lobby.unity
+    guid: 572e5a252351bb74ea5ff4891e98747e
+  - enabled: 1
+    path: Assets/Lost in Creta/Lost in Creta.unity
+    guid: e8a396abd16136643b7ebf0be8a4c1f9
   m_configObjects: {}

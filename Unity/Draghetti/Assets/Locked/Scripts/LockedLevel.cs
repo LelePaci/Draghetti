@@ -8,6 +8,7 @@ public class LockedLevel : MonoBehaviour
     Camera miniCamera;
     GameObject player;
     Canvas miniCanvas;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,14 @@ public class LockedLevel : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         string random = Random.Range(1000,9999).ToString();
-        //EndLevel(nlevel);
+        GlobalVariables gv = GameObject.Find("MiniManager").GetComponent<GlobalVariables>();
+        gv.dig1 = 0;
+        gv.dig2 = 0;
+        gv.dig3 = 0;
+        gv.dig4 = 0;
+        gv.RefreshNumbers();
+        checkOk c = GameObject.Find("BtnOk").GetComponent<checkOk>();
+        c.loadLevel(nlevel, random,this);
     }
 
     public void EndLevel(int nlevel){
@@ -51,8 +59,11 @@ public class LockedLevel : MonoBehaviour
                 break;
         }
         text.color = Color.green;
-        door.GetComponent<LockedInteraction>().enabled = false;
+        door.SetActive(false);
         miniCamera.enabled = false;
+        miniCanvas.enabled = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         player.SetActive(true);
     }
 }
