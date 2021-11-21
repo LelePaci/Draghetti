@@ -49,7 +49,7 @@ public class BowController : MonoBehaviour
             //Debug.Log("sono entrato!");
         }
         if(isFire){
-            firePowerText.text = firePower.ToString();
+            firePowerText.text = (Mathf.Round(firePower)).ToString();
         }
     }
 }

@@ -28,7 +28,10 @@ public class Arrow : MonoBehaviour
         if(didHit) return;
         didHit = true;
         if(other.CompareTag(enemyTag)){
-
+            Target bersaglio = other.gameObject.GetComponent<Target>();
+            int punteggio = bersaglio.getPunteggio();
+            Punteggio ciccio = GameObject.Find("ScoreManager").GetComponent<Punteggio>();
+            ciccio.addPunteggio(punteggio);
         }
         rigidbody.velocity = Vector3.zero;
         rigidbody.angularVelocity = Vector3.zero;
