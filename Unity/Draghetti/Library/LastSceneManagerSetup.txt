@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Target Practice/TargetPractice.unity
+- path: Assets/Lost in Creta/Lost in Creta.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
