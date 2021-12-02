@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Hold the line/HoldTheLine.unity
+- path: Assets/Lost in Creta/Lost in Creta.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
