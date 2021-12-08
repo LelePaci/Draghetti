@@ -5,7 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class PlayGame : MonoBehaviour
 {
-    public void Play(){
+
+    public void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
+    public void Play()
+    {
         SceneManager.LoadScene("Lobby", LoadSceneMode.Single);
         GameVariables.lockedDone = false;
         GameVariables.cretaDone = false;
@@ -13,7 +19,8 @@ public class PlayGame : MonoBehaviour
         GameVariables.targetDone = false;
         GameVariables.simonDone = false;
     }
-    public void Exit(){
+    public void Exit()
+    {
         Application.Quit();
     }
 }
