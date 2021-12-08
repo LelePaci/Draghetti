@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 public class PlayGame : MonoBehaviour
 {
 
-    public void Start()
+    void Start()
     {
         Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
     public void Play()
     {
