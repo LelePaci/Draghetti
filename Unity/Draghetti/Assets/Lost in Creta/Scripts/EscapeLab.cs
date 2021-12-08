@@ -7,7 +7,7 @@ public class EscapeLab : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")){
-            PlayerPrefs.SetInt("LabDone", 1);
+            GameVariables.cretaDone = true;
             SceneManager.LoadScene("Lobby", LoadSceneMode.Single);
         }
     }

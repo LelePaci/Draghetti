@@ -16,7 +16,7 @@ public class Punteggio : MonoBehaviour
     void Update() {
         puntiText.text = punteggio.ToString();
         if(punteggio >= 1000){
-            PlayerPrefs.SetInt("TargetPracticeDone", 1);
+            GameVariables.targetDone = true;
             SceneManager.LoadScene("Lobby", LoadSceneMode.Single);
         }
     }

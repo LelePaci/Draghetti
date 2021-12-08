@@ -8,7 +8,7 @@ public class EscapeLevel : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")){
-            PlayerPrefs.SetInt("LockedDone", 1);
+            GameVariables.lockedDone = true;
             SceneManager.LoadScene("Lobby", LoadSceneMode.Single);
         }
     }

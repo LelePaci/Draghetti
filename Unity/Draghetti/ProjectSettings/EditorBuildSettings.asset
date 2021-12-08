@@ -6,15 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Locked/Locked.unity
-    guid: 2bb20f7f03a2686409f6b48f2fd5864a
+    path: Assets/Screens/Menu.unity
+    guid: 3f11203f152cde54f9126e5ef45a2a67
   - enabled: 1
     path: Assets/Lobby/Lobby.unity
     guid: 572e5a252351bb74ea5ff4891e98747e
+  - enabled: 1
+    path: Assets/Locked/Locked.unity
+    guid: 2bb20f7f03a2686409f6b48f2fd5864a
   - enabled: 1
     path: Assets/Lost in Creta/Lost in Creta.unity
     guid: e8a396abd16136643b7ebf0be8a4c1f9
   - enabled: 1
     path: Assets/Target Practice/TargetPractice.unity
     guid: d2553630037214442aea89f69f6e942a
+  - enabled: 1
+    path: Assets/Hold the line/HoldTheLine.unity
+    guid: bcca86617b220d4418a6b5908ba4fde2
+  - enabled: 1
+    path: Assets/Simon says/Simon Says.unity
+    guid: 6e7db2ad3ea47c64aa6fac9bf48d442b
+  - enabled: 1
+    path: Assets/Screens/EndScene.unity
+    guid: 80bd888e94227fb47aff1e56541c4d6a
   m_configObjects: {}

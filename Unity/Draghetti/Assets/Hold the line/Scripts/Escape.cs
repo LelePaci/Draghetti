@@ -7,7 +7,7 @@ public class Escape : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")){
-            PlayerPrefs.SetInt("HoldTheLineDone", 1);
+            GameVariables.lineDone = true;
             SceneManager.LoadScene("Lobby", LoadSceneMode.Single);
         }
     }

@@ -107,7 +107,7 @@ public class simone_dice : MonoBehaviour
                     {
                         if (livello == 2)
                         {
-                            PlayerPrefs.SetInt("SimonDone", 1);
+                            GameVariables.simonDone = true;
                             SceneManager.LoadScene("Lobby", LoadSceneMode.Single);
                         }
                         else

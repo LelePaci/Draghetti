@@ -14,14 +14,11 @@ public class PlayerInteraction : MonoBehaviour
         Ray ray = cam.ScreenPointToRay(new Vector3(Screen.width/2f, Screen.height/2f));
         RaycastHit hit;
 
-        bool successfulHit = false;
-
         if (Physics.Raycast(ray, out hit, interactionDistance)) {
             Interactable interactable = hit.collider.GetComponent<Interactable>();
 
             if (interactable != null) {
                 HandleInteraction(interactable);
-                successfulHit = true;
             }
         }
     }

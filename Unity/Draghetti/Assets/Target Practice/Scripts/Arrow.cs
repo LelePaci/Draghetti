@@ -9,7 +9,7 @@ public class Arrow : MonoBehaviour
     [SerializeField]
     private float torque;
     [SerializeField]
-    private Rigidbody rigidbody;
+    private Rigidbody arigidbody;
     private string enemyTag;
     private bool didHit;
 
@@ -18,9 +18,9 @@ public class Arrow : MonoBehaviour
     }
 
     public void Flight(Vector3 forza){
-        rigidbody.isKinematic = false;
-        rigidbody.AddForce(forza,ForceMode.Impulse);
-        rigidbody.AddTorque(transform.right*torque);
+        arigidbody.isKinematic = false;
+        arigidbody.AddForce(forza,ForceMode.Impulse);
+        arigidbody.AddTorque(transform.right*torque);
         transform.SetParent(null);
     }
 
@@ -33,9 +33,9 @@ public class Arrow : MonoBehaviour
             Punteggio ciccio = GameObject.Find("ScoreManager").GetComponent<Punteggio>();
             ciccio.addPunteggio(punteggio);
         }
-        rigidbody.velocity = Vector3.zero;
-        rigidbody.angularVelocity = Vector3.zero;
-        rigidbody.isKinematic = true;
+        arigidbody.velocity = Vector3.zero;
+        arigidbody.angularVelocity = Vector3.zero;
+        arigidbody.isKinematic = true;
         transform.SetParent(other.transform);
     }
 }
